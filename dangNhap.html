@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="div1">
+
+    </div>
+
+    <form action="" id="formId">
+
+        <h1>Đăng Nhập</h1>
+        <input id="txtdn" class="input1  ip1" type="text" maxlength="150" size="10" placeholder="   Tài khoản" onkeydown="enterclicktxt()">
+        <input id="txtpass" class="input1  ip2" type="password" maxlength="150 " size="10 " placeholder="  Mật khẩu" onkeydown="enterclick()">
+        <center>
+            <div class="choose">
+                <input type="checkbox" id="chebox" value="show" class="radiobtn" onclick="ischeck()"></input>
+                <div style="margin-left: -160px;">
+                    hiển thị
+                </div>
+                <a href="http://127.0.0.1:5500/duan/dangky.html" style="text-decoration: none; color: rgb(255, 255, 255);"> đăng ký</a>
+            </div>
+
+
+        </center>
+        <button type="button" class="btndangnhap" id="btndangnhap"> ĐĂNG NHẬP</button>
+        <center>
+            <p>đăng nhập với </p>
+        </center>
+        <div id="bntswithApp">
+
+            <a href="https://m.facebook.com/login/?locale=vi_VN&refsrc=deprecated" class="btnIcon facebook">
+                <span><i class="fa-brands fa-facebook"></i> </span><span>facebook</span>
+            </a>
+            <a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=SignUp" class="btnIcon  google">
+                <span><i class="fa-brands fa-google"></i> </span><span>google</span>
+            </a>
+        </div>
+
+    </form>
+
+
+    <script src="dangnhap.js "></script>
+</body>
+
+
+</html>

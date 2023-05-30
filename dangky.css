@@ -1,0 +1,127 @@
+                                    body {
+                                        margin: 0px;
+                                        background: url(ocean-3605547__340.jpg);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    form {
+                                        width: 30%;
+                                        height: 90%;
+                                        background-color: rgba(18, 73, 121, 0);
+                                        position: absolute;
+                                        left: 35%;
+                                        margin-top: 3%;
+                                    }
+                                    
+                                    #form {
+                                        margin: 8% auto 10% 10%;
+                                    }
+                                    
+                                    input {
+                                        width: 74%;
+                                        height: 6%;
+                                        border: none;
+                                        /* ko còn viền */
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .divformip {
+                                        margin-top: 4%;
+                                        background: transparent;
+                                        /*setd cho các ô input tẽxt không còn cái mầu trắng nữa*/
+                                        border-bottom: 1px solid rgb(255, 255, 255);
+                                        /*tạo ra 1 đường viền solis gạch chân bên dưới là 1px*/
+                                        outline: 0;
+                                        color: aliceblue;
+                                        margin-left: 2%;
+                                    }
+                                    
+                                    .btn {
+                                        margin: 10% 0px 0px 8%;
+                                        border-radius: 10px;
+                                        background-color: chartreuse;
+                                    }
+                                    
+                                    .btn:hover {
+                                        transition: 0.25s;
+                                        border: 2px;
+                                        color: brown;
+                                        transform: scale( 1.1);
+                                        /*căn theo chiều tỉ lệ là x và y với vd này thì x và y đều to ra là 1.1 hoặc (1.1,1.1)*/
+                                    }
+                                    
+                                    p {
+                                        margin: -5% 0px 0px 40%;
+                                        color: brown;
+                                        font-weight: bold;
+                                        /*set cho chữ in đậm */
+                                    }
+                                    
+                                    #form2 {
+                                        margin-top: 10%;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        margin-left: 3%;
+                                    }
+                                    
+                                    .fa-facebook {
+                                        color: rgb(25, 42, 197);
+                                        font-size: 21px;
+                                    }
+                                    
+                                    .fa-google {
+                                        color: rgb(161, 20, 44);
+                                        font-size: 21px;
+                                    }
+                                    
+                                    h5 {
+                                        justify-content: center;
+                                    }
+                                    
+                                    .divh5 {
+                                        margin-left: 30%;
+                                        margin-top: 19%;
+                                        color: rgb(194, 189, 185);
+                                        font-weight: bold;
+                                        /*set cho chữ in đậm */
+                                    }
+                                    
+                                    span {
+                                        font-size: 20px;
+                                    }
+                                    
+                                    @media only screen and (max-width: 600px) {
+                                        form {
+                                            width: 50%;
+                                            height: 80%;
+                                            margin-left: -14%;
+                                            margin-top: 20%;
+                                        }
+                                        input {
+                                            width: 84%;
+                                            height: 6%;
+                                            font-size: 13px;
+                                            margin-top: 5%;
+                                        }
+                                        h2 {
+                                            font-size: 13px;
+                                            text-align: center;
+                                        }
+                                        .divh5 {
+                                            margin-left: 20%;
+                                        }
+                                        .divicon1 {
+                                            font-size: 20px;
+                                        }
+                                        i {
+                                            font-size: 8px;
+                                        }
+                                        span {
+                                            font-size: 15px;
+                                        }
+                                        #form {
+                                            margin: 8% auto 10% 10%;
+                                        }
+                                    }

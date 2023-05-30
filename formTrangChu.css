@@ -1,0 +1,1585 @@
+                                                body {
+                                                    font-family: Arial, Helvetica, sans-serif;
+                                                    margin: 0px;
+                                                }
+                                                
+                                                nav {
+                                                    /*Thuộc positiontính chỉ định loại phương pháp định vị được
+             sử dụng cho một phần tử (tĩnh, tương đối, cố định, tuyệt đối hoặc dính).*/
+                                                    display: flex;
+                                                    width: 80%;
+                                                    margin-left: 5%;
+                                                    height: 13%;
+                                                    justify-content: space-around;
+                                                }
+                                                
+                                                .logo {
+                                                    width: 10%;
+                                                }
+                                                
+                                                .l1 {
+                                                    display: flex;
+                                                    list-style-type: none;
+                                                    width: 100%;
+                                                }
+                                                
+                                                .l1 li {
+                                                    width: 40%;
+                                                    font-size: 100%;
+                                                    font-weight: bold;
+                                                    /*in đậm (bold).*/
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    nav {
+                                                        /*Thuộc positiontính chỉ định loại phương pháp định vị được
+                 sử dụng cho một phần tử (tĩnh, tương đối, cố định, tuyệt đối hoặc dính).*/
+                                                        display: block;
+                                                        width: 80%;
+                                                        height: auto;
+                                                    }
+                                                    logo {
+                                                        width: 30%;
+                                                    }
+                                                    .l1 {
+                                                        display: block;
+                                                        list-style-type: none;
+                                                        width: 80%;
+                                                    }
+                                                    .l1 li {
+                                                        margin-top: 8%;
+                                                        font-size: 150%;
+                                                        font-weight: bold;
+                                                        /*in đậm (bold).*/
+                                                        width: 100%;
+                                                    }
+                                                }
+                                                
+                                                .div2 {
+                                                    background-color: coral;
+                                                    width: 100%;
+                                                    height: 110%;
+                                                    margin-top: 2%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .rong {
+                                                    width: 100%;
+                                                    height: 5%;
+                                                    background-color: coral;
+                                                }
+                                                
+                                                .div2_1 {
+                                                    width: 40%;
+                                                    margin-left: 10%;
+                                                    margin-right: 4%;
+                                                    font-weight: bold;
+                                                    /*in đậm (bold).*/
+                                                    color: white;
+                                                }
+                                                
+                                                .l2 {
+                                                    list-style-type: none;
+                                                    font-size: 140%;
+                                                    width: 100%;
+                                                    line-height: 2;
+                                                    /* line-height:  Tăng hoặc giảm khoảng cách giữa các dòng,
+            có thể là số tự nhiên hoặc số thập phân.*/
+                                                    padding-left: 0%;
+                                                }
+                                                
+                                                span {
+                                                    font-weight: lighter;
+                                                    /*  font-weight: lighter;chuyển từ chữ đậm sang chữ nhạt với tương phản 400*/
+                                                    color: black;
+                                                }
+                                                
+                                                #anh1 {
+                                                    margin-top: 5%;
+                                                    height: auto;
+                                                }
+                                                
+                                                .form1 {
+                                                    width: auto;
+                                                    height: 100%;
+                                                    margin-bottom: 0px;
+                                                }
+                                                
+                                                .div2_2 {
+                                                    width: 30%;
+                                                    background-color: aliceblue;
+                                                    height: auto;
+                                                    border-radius: 4%;
+                                                    margin-top: 2%;
+                                                    margin-left: 2%;
+                                                    margin-bottom: 35px;
+                                                }
+                                                
+                                                .text1 {
+                                                    text-align: center;
+                                                }
+                                                
+                                                .c1 {
+                                                    margin-top: 5%;
+                                                    padding: 7px 0px 7px 5px;
+                                                    width: 70%;
+                                                    border-radius: 10px;
+                                                    border: 0.5px solid;
+                                                }
+                                                
+                                                .btn1 {
+                                                    width: 65%;
+                                                    background-color: coral;
+                                                    border-radius: 10px;
+                                                    border: none;
+                                                    /*boerder bỏ cái đường viênf của buuton **/
+                                                    margin-top: 3%;
+                                                    height: 35px;
+                                                    line-height: 0;
+                                                }
+                                                
+                                                center {
+                                                    align-content: space-between;
+                                                }
+                                                
+                                                #anh1 {
+                                                    margin-bottom: 3%;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div2 {
+                                                        background-color: coral;
+                                                        width: 100%;
+                                                        height: auto;
+                                                        margin-top: 0%;
+                                                        display: block;
+                                                        padding-bottom: 4%;
+                                                    }
+                                                    .rong {
+                                                        width: 90%;
+                                                        height: 5%;
+                                                        background-color: coral;
+                                                    }
+                                                    .h1_1 {
+                                                        font-size: 100%;
+                                                    }
+                                                    .form1 {
+                                                        width: auto;
+                                                        height: 580px;
+                                                        margin-bottom: 0px;
+                                                    }
+                                                    .div2_1 {
+                                                        width: 100%;
+                                                        margin-left: 0%;
+                                                        margin-right: 0%;
+                                                        font-weight: bold;
+                                                        /*in đậm (bold).*/
+                                                        color: white;
+                                                        height: 40%;
+                                                    }
+                                                    .l2 {
+                                                        list-style-type: none;
+                                                        font-size: 100%;
+                                                        width: 100%;
+                                                        line-height: 2;
+                                                        /* line-height:  Tăng hoặc giảm khoảng cách giữa các dòng,
+            có thể là số tự nhiên hoặc số thập phân.*/
+                                                        padding-left: 0%;
+                                                    }
+                                                    #anh1 {
+                                                        width: 260px;
+                                                    }
+                                                    span {
+                                                        font-weight: lighter;
+                                                        /*  font-weight: lighter;chuyển từ chữ đậm sang chữ nhạt với tương phản 400*/
+                                                        color: black;
+                                                    }
+                                                    .div2_2 {
+                                                        width: 90%;
+                                                        background-color: aliceblue;
+                                                        height: 55%;
+                                                        border-radius: 4%;
+                                                        margin-top: 6%;
+                                                        margin-left: 5%;
+                                                    }
+                                                    .text1 {
+                                                        text-align: center;
+                                                    }
+                                                    .txt1_1 {
+                                                        text-align: center;
+                                                        padding-top: 5%;
+                                                    }
+                                                    button {
+                                                        width: 65%;
+                                                        height: 7%;
+                                                        background-color: coral;
+                                                        border-radius: 10px;
+                                                        border: none;
+                                                        /*boerder bỏ cái đường viênf của buuton **/
+                                                    }
+                                                    center {
+                                                        align-content: space-between;
+                                                    }
+                                                    .c1 {
+                                                        margin-top: 5%;
+                                                    }
+                                                }
+                                                
+                                                .div3 {
+                                                    width: 100%;
+                                                    height: 81%;
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                }
+                                                
+                                                .div3_1 {
+                                                    width: 18%;
+                                                    height: 91.6%;
+                                                    background-color: rgb(252, 254, 255);
+                                                    padding-top: 3%;
+                                                }
+                                                
+                                                .div3_1_1 {
+                                                    width: 40%;
+                                                    height: 30%;
+                                                    border-radius: 50%;
+                                                    background-color: rgb(182, 72, 21);
+                                                    text-align: center;
+                                                    font-size: 35px;
+                                                    color: white;
+                                                    font-weight: bold;
+                                                    border: 9px solid rgb(182, 72, 21);
+                                                    font-weight: bold;
+                                                    /*font-weight: bold; set phoon chư đậmc*/
+                                                }
+                                                
+                                                .div3_1_2 {
+                                                    width: 40%;
+                                                    height: 30%;
+                                                    border-radius: 50%;
+                                                    border: 9px solid rgb(219, 82, 19);
+                                                    text-align: center;
+                                                    font-size: 35px;
+                                                    color: rgb(156, 21, 21);
+                                                    font-weight: bold;
+                                                    /*font-weight: bold; set phoon chư đậmc*/
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div3 {
+                                                        margin-top: 10%;
+                                                        display: block;
+                                                        font-size: 140%;
+                                                        height: auto;
+                                                    }
+                                                    .div3_1 {
+                                                        width: 100%;
+                                                        background-color: rgb(35, 89, 136);
+                                                        padding-top: 3%;
+                                                        margin-top: 9%;
+                                                    }
+                                                    .div3_1_1 {
+                                                        width: 15%;
+                                                        height: 20%;
+                                                        border-radius: 50%;
+                                                        font-size: 30px;
+                                                        border: 9px solid rgb(182, 72, 21);
+                                                        /*font-weight: bold; set phoon chư đậmc*/
+                                                    }
+                                                    .div3_1_2 {
+                                                        width: 15%;
+                                                        height: 20%;
+                                                        border-radius: 50%;
+                                                        border: 15px solid red;
+                                                        font-size: 30px;
+                                                    }
+                                                }
+                                                
+                                                .div4 {
+                                                    width: 100%;
+                                                    height: 10%;
+                                                    margin-top: 1%;
+                                                    padding-top: 0.5%;
+                                                }
+                                                
+                                                .btnc2 {
+                                                    background-color: aliceblue;
+                                                    font-size: 200%;
+                                                    width: 30%;
+                                                    border-radius: 100px;
+                                                    height: 90%;
+                                                    border: none;
+                                                    /*bo vien của buuton*/
+                                                }
+                                                
+                                                .btnc2:hover {
+                                                    transform: scale(1.1);
+                                                    /* cho biến đổi theo chiều x y của tòa độ nếu âm thì hover chung sẻ thu nhỏ cond nếu dương chúng sẻ lớn theo kích cỡ*/
+                                                }
+                                                
+                                                .btnc2 {
+                                                    background-color: chocolate;
+                                                    color: aliceblue;
+                                                    margin-right: 2%;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div4 {
+                                                        width: 100%;
+                                                        height: 10%;
+                                                        margin-top: 1%;
+                                                        padding-top: 0.5%;
+                                                    }
+                                                    .btnc2 {
+                                                        font-size: 200%;
+                                                        width: 70%;
+                                                        border-radius: 100px;
+                                                        height: 90%;
+                                                        border: none;
+                                                        margin-left: 0px;
+                                                        /*bo vien của buuton*/
+                                                    }
+                                                    .btnc2:hover {
+                                                        transform: scale(1.1);
+                                                    }
+                                                    .cx2 {
+                                                        background-color: chocolate;
+                                                        margin-top: 3%;
+                                                        margin-right: 0px;
+                                                    }
+                                                    .c3 {
+                                                        margin-top: 3%;
+                                                    }
+                                                }
+                                                
+                                                .div5 {
+                                                    background-color: chocolate;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    margin-top: 2%;
+                                                    position: relative;
+                                                }
+                                                
+                                                .h5_2 {
+                                                    width: 40%;
+                                                    color: aliceblue;
+                                                    padding-top: 11px;
+                                                }
+                                                
+                                                .div5_1 {
+                                                    background-color: aliceblue;
+                                                    position: absolute;
+                                                    top: 5px;
+                                                    right: 30px;
+                                                    width: 9%;
+                                                    height: 20%;
+                                                    border-radius: 50%;
+                                                }
+                                                
+                                                .div5_2 {
+                                                    position: absolute;
+                                                    top: 70px;
+                                                    right: 200px;
+                                                    width: 3%;
+                                                    height: 6%;
+                                                    border-radius: 50%;
+                                                    border: 2px solid white;
+                                                }
+                                                
+                                                .div5_3 {
+                                                    width: 40%;
+                                                    height: 70%;
+                                                    margin: 4% 30px 30px 40px;
+                                                }
+                                                
+                                                video {
+                                                    width: 100%;
+                                                    height: 80%;
+                                                }
+                                                
+                                                .div5_4 {
+                                                    width: 50%;
+                                                    height: 70%;
+                                                    margin: 4% 30px 30px 40px;
+                                                    position: absolute;
+                                                    top: 60px;
+                                                    right: 20px;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .h5_2 {
+                                                        color: aliceblue;
+                                                        padding-top: 11px;
+                                                        position: relative;
+                                                        width: 100%;
+                                                    }
+                                                    .div5_1 {
+                                                        height: 5%;
+                                                        position: relative;
+                                                    }
+                                                    .div5_2 {
+                                                        border-radius: 50%;
+                                                        border: 2px solid white;
+                                                    }
+                                                    .div5_3 {
+                                                        width: 80%;
+                                                        height: 70%;
+                                                        margin: 4% 30px 30px 40px;
+                                                    }
+                                                    video {
+                                                        width: 80%;
+                                                        height: 60%;
+                                                        margin: 0px;
+                                                        position: opx;
+                                                    }
+                                                    .div5_4 {
+                                                        position: relative;
+                                                        height: auto;
+                                                        width: auto;
+                                                        top: 0%;
+                                                        /* dùng để can chingr trường của nó so với 1 cái div mẹ */
+                                                    }
+                                                }
+                                                
+                                                .div6 {
+                                                    margin-top: 2%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div6_2 {
+                                                    width: 35%;
+                                                    height: auto;
+                                                    background-color: rgb(212, 218, 218);
+                                                }
+                                                
+                                                .div6_2_1 {
+                                                    margin-left: 15%;
+                                                    margin-top: 7px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .div6_2_1 a {
+                                                    width: 25%;
+                                                    height: 3%;
+                                                    text-decoration: none;
+                                                    /*bỏ dấu gạch chân */
+                                                    font-size: 24px;
+                                                    color: rgb(65, 68, 68);
+                                                }
+                                                
+                                                hr {
+                                                    border: 1px solid rgb(105, 103, 103);
+                                                    width: 83%;
+                                                    margin-left: 0px;
+                                                }
+                                                
+                                                .div6_2_2 {
+                                                    margin-left: 15%;
+                                                    margin-top: 14%;
+                                                }
+                                                
+                                                .div6_2_2 input {
+                                                    width: 70%;
+                                                    height: 30px;
+                                                    border-radius: 0px;
+                                                    border: 0.3px solid rgba(192, 186, 186, 0.5);
+                                                    background-color: rgb(223, 220, 220);
+                                                }
+                                                
+                                                .div6_1 {
+                                                    width: 65%;
+                                                    height: 80%;
+                                                    display: flex;
+                                                    background-color: aliceblue;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                }
+                                                
+                                                .sileShow {
+                                                    margin: 0 auto;
+                                                    overflow: hidden;
+                                                    height: 560px;
+                                                    width: 90%;
+                                                }
+                                                
+                                                .divimg_slideShow {
+                                                    text-align: center;
+                                                    width: 100%;
+                                                    animation: 4s;
+                                                }
+                                                
+                                                .img6_1 {
+                                                    float: left;
+                                                    height: 55%;
+                                                    width: 95%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div6_2_1 a {
+                                                        width: 25%;
+                                                        height: 3%;
+                                                        text-decoration: none;
+                                                        /*bỏ dấu gạch chân */
+                                                        font-size: 14px;
+                                                        color: rgb(65, 68, 68);
+                                                    }
+                                                    hr {
+                                                        border: 1px solid rgb(105, 103, 103);
+                                                        width: 88%;
+                                                        margin-left: 0px;
+                                                    }
+                                                    .div6_2_1 h2 {
+                                                        font-size: 14px;
+                                                    }
+                                                    .div6_2_2 h2 {
+                                                        font-size: 14px;
+                                                    }
+                                                    .div6_2_2 {
+                                                        margin-left: 7%;
+                                                        margin-top: 14%;
+                                                    }
+                                                    .div6_2_2 input {
+                                                        width: 90%;
+                                                        height: 20px;
+                                                        border-radius: 0px;
+                                                        border: 0.3px solid rgba(192, 186, 186, 0.5);
+                                                        background-color: rgb(223, 220, 220);
+                                                    }
+                                                }
+                                                
+                                                .div7 {
+                                                    margin-top: 3%;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .div7 h1 {
+                                                    color: chocolate;
+                                                }
+                                                
+                                                .div8 {
+                                                    margin-top: 3%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div8_1 {
+                                                    width: 50%;
+                                                    margin-left: 6%;
+                                                }
+                                                
+                                                #div8p {
+                                                    font-size: 35px;
+                                                }
+                                                
+                                                #div8p2 {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div8_2 {
+                                                    width: 50%;
+                                                    margin-left: 13%;
+                                                }
+                                                
+                                                .fa-solid {
+                                                    color: rgb(80, 255, 153);
+                                                }
+                                                
+                                                .div8_2 img {
+                                                    width: auto;
+                                                    height: 70%;
+                                                    margin-left: 8%;
+                                                }
+                                                
+                                                .div8_2_1 {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                .btn8 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                }
+                                                
+                                                .btnc8_1 {
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                .btnc8_2 {
+                                                    color: chocolate;
+                                                    background-color: rgb(97, 70, 70);
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div8 {
+                                                        margin-top: 5%;
+                                                        display: block;
+                                                        height: auto;
+                                                    }
+                                                    .div8_1 {
+                                                        width: 90%;
+                                                        margin-left: 6%;
+                                                    }
+                                                    #div8p {
+                                                        font-size: 30px;
+                                                    }
+                                                    #div8p2 {
+                                                        font-size: 15px;
+                                                    }
+                                                    .div8_2 {
+                                                        margin-left: 12%;
+                                                        height: auto;
+                                                    }
+                                                    .div8_2 img {
+                                                        width: 140%;
+                                                        height: 50%;
+                                                    }
+                                                    .div8_2_1 {
+                                                        width: 400px;
+                                                        height: auto;
+                                                    }
+                                                    .btn8 {
+                                                        height: 30px;
+                                                        border-radius: 10px;
+                                                        width: 200px;
+                                                    }
+                                                }
+                                                
+                                                .div9 {
+                                                    margin-top: 3%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div9_1 {
+                                                    width: 50%;
+                                                    margin-left: 6%;
+                                                }
+                                                
+                                                #div9p {
+                                                    font-size: 35px;
+                                                }
+                                                
+                                                #div9p2 {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div9_2 {
+                                                    width: 50%;
+                                                    margin-left: 3%;
+                                                    margin-top: 1%;
+                                                }
+                                                
+                                                .fa-solid {
+                                                    color: rgb(80, 255, 153);
+                                                }
+                                                
+                                                .div9_2 img {
+                                                    width: auto;
+                                                    height: 70%;
+                                                    margin-left: 8%;
+                                                }
+                                                
+                                                .div9_2_1 {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                .btn9 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                }
+                                                
+                                                .btnc9_1 {
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                .btnc9_2 {
+                                                    color: chocolate;
+                                                    background-color: rgb(97, 70, 70);
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div9 {
+                                                        margin-top: 5%;
+                                                        display: block;
+                                                        height: auto;
+                                                    }
+                                                    .div9_1 {
+                                                        width: 90%;
+                                                        margin-left: 6%;
+                                                    }
+                                                    #div9p {
+                                                        font-size: 30px;
+                                                    }
+                                                    #div9p2 {
+                                                        font-size: 15px;
+                                                    }
+                                                    .div9_2 {
+                                                        margin-left: 10%;
+                                                        height: auto;
+                                                    }
+                                                    .fa-solid {
+                                                        color: rgb(80, 255, 153);
+                                                    }
+                                                    .div9_2 img {
+                                                        width: 140%;
+                                                        height: 50%;
+                                                    }
+                                                    .div9_2_1 {
+                                                        width: 400px;
+                                                        height: auto;
+                                                        margin-left: 2%;
+                                                    }
+                                                    .btn9 {
+                                                        height: 30px;
+                                                        border-radius: 10px;
+                                                        width: 200px;
+                                                    }
+                                                }
+                                                
+                                                .div10 {
+                                                    margin-top: 3%;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .div10 h1 {
+                                                    color: chocolate;
+                                                }
+                                                
+                                                .div11 {
+                                                    margin-top: 3%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div11_1 {
+                                                    width: 55%;
+                                                    margin-left: 6%;
+                                                }
+                                                
+                                                #div11p {
+                                                    font-size: 35px;
+                                                }
+                                                
+                                                #div11p2 {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div11_2 {
+                                                    width: 45%;
+                                                    margin-left: 1%;
+                                                    margin-top: 1%;
+                                                }
+                                                
+                                                .fa-solid {
+                                                    color: rgb(80, 255, 153);
+                                                }
+                                                
+                                                .div11_2 img {
+                                                    width: 90%;
+                                                    height: 70%;
+                                                    margin-left: 8%;
+                                                }
+                                                
+                                                .div11_2_1 {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                .btn11 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                }
+                                                
+                                                .btnc11_1 {
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                .btnc11_2 {
+                                                    color: chocolate;
+                                                    background-color: rgb(97, 70, 70);
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div11 {
+                                                        margin-top: 5%;
+                                                        display: block;
+                                                        height: auto;
+                                                    }
+                                                    .div11_1 {
+                                                        width: 90%;
+                                                    }
+                                                    #div11p {
+                                                        font-size: 30px;
+                                                    }
+                                                    #div11p2 {
+                                                        font-size: 15px;
+                                                    }
+                                                    .div11_2 {
+                                                        margin-left: 12%;
+                                                        height: auto;
+                                                    }
+                                                    .div11_2 img {
+                                                        width: 170%;
+                                                        height: 50%;
+                                                    }
+                                                    .div11_2_1 {
+                                                        width: 400px;
+                                                        height: auto;
+                                                    }
+                                                    .btn11 {
+                                                        height: 30px;
+                                                        border-radius: 10px;
+                                                        width: 200px;
+                                                    }
+                                                }
+                                                
+                                                .div12 {
+                                                    margin-top: 3%;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .div12 p {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div13 {
+                                                    margin-top: 3%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div13_1 {
+                                                    width: 55%;
+                                                    margin-left: 6%;
+                                                }
+                                                
+                                                #div13p {
+                                                    font-size: 35px;
+                                                }
+                                                
+                                                #div13p2 {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div13_2 {
+                                                    width: 45%;
+                                                    margin-left: 1%;
+                                                    margin-top: 1%;
+                                                }
+                                                
+                                                .fa-solid {
+                                                    color: rgb(80, 255, 153);
+                                                }
+                                                
+                                                .div13_2 img {
+                                                    width: 90%;
+                                                    height: 70%;
+                                                    margin-left: 8%;
+                                                }
+                                                
+                                                .div13_2_1 {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                .btn13 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                }
+                                                
+                                                .btnc13_1 {
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                .btnc13_2 {
+                                                    color: chocolate;
+                                                    background-color: rgb(97, 70, 70);
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div13 {
+                                                        margin-top: 5%;
+                                                        display: block;
+                                                        height: auto;
+                                                    }
+                                                    .div13_1 {
+                                                        width: 90%;
+                                                    }
+                                                    #div13p {
+                                                        font-size: 30px;
+                                                    }
+                                                    #div13p2 {
+                                                        font-size: 15px;
+                                                    }
+                                                    .div13_2 {
+                                                        margin-left: 12%;
+                                                        height: auto;
+                                                    }
+                                                    .div13_2 img {
+                                                        width: 170%;
+                                                        height: 50%;
+                                                    }
+                                                    .div13_2_1 {
+                                                        width: 400px;
+                                                        height: auto;
+                                                    }
+                                                    .btn13 {
+                                                        height: 30px;
+                                                        border-radius: 10px;
+                                                        width: 200px;
+                                                    }
+                                                }
+                                                
+                                                .div14 {
+                                                    margin-top: 3%;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .div14 p {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div15 {
+                                                    margin-top: 3%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div15_1 {
+                                                    width: 55%;
+                                                    margin-left: 4%;
+                                                }
+                                                
+                                                #div15p {
+                                                    font-size: 35px;
+                                                }
+                                                
+                                                #div15p2 {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .div15_2 {
+                                                    width: 45%;
+                                                    margin-left: 5%;
+                                                    margin-top: 1%;
+                                                }
+                                                
+                                                .fa-solid {
+                                                    color: rgb(80, 255, 153);
+                                                }
+                                                
+                                                .div15_2 img {
+                                                    width: auto;
+                                                    height: 70%;
+                                                    margin-left: 8%;
+                                                }
+                                                
+                                                .div15_2_1 {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                .btn15 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                }
+                                                
+                                                .btnc15_1 {
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                .btnc15_2 {
+                                                    color: chocolate;
+                                                    background-color: rgb(97, 70, 70);
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div15 {
+                                                        margin-top: 5%;
+                                                        display: block;
+                                                        height: auto;
+                                                    }
+                                                    .div15_1 {
+                                                        width: 90%;
+                                                        margin-left: 6%;
+                                                    }
+                                                    #div15p {
+                                                        font-size: 30px;
+                                                    }
+                                                    #div15p2 {
+                                                        font-size: 15px;
+                                                    }
+                                                    .div15_2 {
+                                                        margin-left: 12%;
+                                                        height: auto;
+                                                    }
+                                                    .div15_2 img {
+                                                        width: 140%;
+                                                        height: 50%;
+                                                    }
+                                                    .div15_2_1 {
+                                                        width: 400px;
+                                                        height: auto;
+                                                    }
+                                                    .btn15 {
+                                                        height: 30px;
+                                                        border-radius: 10px;
+                                                        width: 200px;
+                                                    }
+                                                }
+                                                
+                                                .div16 {
+                                                    margin-top: 3%;
+                                                    width: 100%;
+                                                    height: 700px;
+                                                    background-color: #f76942;
+                                                }
+                                                
+                                                .div16h1 {
+                                                    width: 60%;
+                                                    height: auto;
+                                                    text-align: center;
+                                                    margin-left: 20%;
+                                                }
+                                                
+                                                .div16_1 {
+                                                    margin: 2% 5% 0% 5%;
+                                                    display: flex;
+                                                }
+                                                
+                                                .div16_2 {
+                                                    width: 30%;
+                                                    height: auto;
+                                                }
+                                                
+                                                #div16_2_1 {
+                                                    width: 70%;
+                                                    height: 40px;
+                                                    background-color: rgb(255, 255, 255);
+                                                    font-weight: bold;
+                                                    /*set chữ theo cỡ dạng in đậm*/
+                                                    color: coral;
+                                                    border-radius: 10px;
+                                                    /*câchs căn 1 chữ cái ra giữa thẻ div*/
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                                
+                                                #div16_2_2 {
+                                                    margin-top: 20%;
+                                                    width: 90%;
+                                                    height: 40px;
+                                                    background-color: rgb(255, 255, 255);
+                                                    font-weight: bold;
+                                                    /*set chữ theo cỡ dạng in đậm*/
+                                                    color: coral;
+                                                    border-radius: 10px;
+                                                    /*câchs căn 1 chữ cái ra giữa thẻ div*/
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                                
+                                                .div16_3 {
+                                                    padding-top: -14%;
+                                                }
+                                                
+                                                .div16_3 img {
+                                                    width: 430px;
+                                                    height: 400px;
+                                                }
+                                                
+                                                .div16_4 {
+                                                    width: 30%;
+                                                    height: auto;
+                                                }
+                                                
+                                                .div16_4 {
+                                                    width: 30%;
+                                                    height: auto;
+                                                    margin-left: 2%;
+                                                }
+                                                
+                                                #div16_4_1 {
+                                                    width: 70%;
+                                                    height: 40px;
+                                                    background-color: rgb(255, 255, 255);
+                                                    font-weight: bold;
+                                                    /*set chữ theo cỡ dạng in đậm*/
+                                                    color: coral;
+                                                    border-radius: 10px;
+                                                    /*câchs căn 1 chữ cái ra giữa thẻ div*/
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    margin-left: 8%;
+                                                }
+                                                
+                                                #div16_4_2 {
+                                                    margin-top: 20%;
+                                                    width: 50%;
+                                                    height: 40px;
+                                                    background-color: rgb(255, 255, 255);
+                                                    font-weight: bold;
+                                                    /*set chữ theo cỡ dạng in đậm*/
+                                                    color: coral;
+                                                    border-radius: 10px;
+                                                    /*câchs căn 1 chữ cái ra giữa thẻ div*/
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                                
+                                                .div16_btn {
+                                                    text-align: center;
+                                                    margin-top: 50px;
+                                                }
+                                                
+                                                .div16_btn button {
+                                                    width: 23%;
+                                                    height: 37px;
+                                                    border-radius: 10px;
+                                                    border: none;
+                                                }
+                                                
+                                                .div16_btn button:hover {
+                                                    color: aliceblue;
+                                                    background-color: brown;
+                                                    transition: 1500ms;
+                                                    transform: scale(1.1);
+                                                    /*set thời gian và tăng lại từ từ kích thưuocs khi set thời gian lai*/
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div16 {
+                                                        margin-top: 3%;
+                                                        width: 100%;
+                                                        height: auto;
+                                                        background-color: #f76942;
+                                                    }
+                                                    .div16h1 {
+                                                        width: 100%;
+                                                        height: auto;
+                                                        text-align: center;
+                                                        margin-left: 0%;
+                                                    }
+                                                    .div16h1 h1 {
+                                                        font-size: 25px;
+                                                    }
+                                                    .div16_1 {
+                                                        margin: 10% 5% 0% 5%;
+                                                        display: block;
+                                                    }
+                                                    .div16_2 {
+                                                        width: 100%;
+                                                        height: auto;
+                                                    }
+                                                    #div16_2_1 {
+                                                        width: 50%;
+                                                        height: 40px;
+                                                    }
+                                                    #div16_2_2 {
+                                                        margin-top: 20%;
+                                                        width: 90%;
+                                                        height: 40px;
+                                                    }
+                                                    .div16_4 {
+                                                        width: 30%;
+                                                        height: auto;
+                                                    }
+                                                    .div16_4 {
+                                                        width: 100%;
+                                                        height: auto;
+                                                        margin-left: 2%;
+                                                        margin-top: 6%;
+                                                    }
+                                                    #div16_4_1 {
+                                                        width: 50%;
+                                                        height: 40px;
+                                                    }
+                                                    #div16_4_2 {
+                                                        margin-top: 20%;
+                                                        width: 40%;
+                                                        height: 40px;
+                                                    }
+                                                    .div16_btn {
+                                                        text-align: center;
+                                                        margin-top: 50px;
+                                                    }
+                                                    .div16_btn button {
+                                                        width: 53%;
+                                                        height: 37px;
+                                                        margin-bottom: 10%;
+                                                    }
+                                                }
+                                                
+                                                .div17 {
+                                                    margin: 10px auto 0 auto;
+                                                    padding: 32px 0;
+                                                    height: 320px;
+                                                    background-color: #fff;
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                }
+                                                
+                                                .div17_item {
+                                                    align-self: flex-end;
+                                                    /* đỏi chiều biểu đồ*/
+                                                    width: 60px;
+                                                    color: #fff;
+                                                    text-align: center;
+                                                    height: var(--percent);
+                                                    /* nhận chính biến chiều cáo của biêủ đồ từ biến cái style */
+                                                    background-color: #EF5122;
+                                                    /* lấy animation bên dưới lúc ease-in chậm gữa nhanh sau chậm - thời gian*/
+                                                }
+                                                
+                                                .div17thang {
+                                                    margin: -20px auto 0 auto;
+                                                    background-color: #fff;
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    margin-left: 5px;
+                                                }
+                                                
+                                                .div17thang1 {
+                                                    height: auto;
+                                                    width: 67px
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div17 {
+                                                        margin: 10px auto 0 auto;
+                                                        padding: 32px 0;
+                                                        height: 320px;
+                                                        background-color: #fff;
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                    }
+                                                    .div17_item {
+                                                        align-self: flex-end;
+                                                        /* đỏi chiều biểu đồ*/
+                                                        width: 35px;
+                                                        color: #fff;
+                                                        text-align: center;
+                                                        height: var(--percent);
+                                                        /* nhận chính biến chiều cáo của biêủ đồ từ biến cái style */
+                                                        background-color: #EF5122;
+                                                        /* lấy animation bên dưới lúc ease-in chậm gữa nhanh sau chậm - thời gian*/
+                                                    }
+                                                    .div17thang {
+                                                        margin: -20px 0px 0 5px;
+                                                        background-color: #fff;
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                    }
+                                                    .div17thang1 {
+                                                        height: auto;
+                                                        width: 35px;
+                                                        font-size: 8px;
+                                                    }
+                                                }
+                                                
+                                                .div19 {
+                                                    background-color: #EF5122;
+                                                    height: 700px;
+                                                    width: 100%;
+                                                    margin-top: 60px;
+                                                }
+                                                
+                                                .div19_2 {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    margin-top: 7%;
+                                                    color: aliceblue;
+                                                }
+                                                
+                                                .div19_2_1 {
+                                                    width: 25%;
+                                                    height: auto;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .div19_2_1 i {
+                                                    color: #fff;
+                                                    font-size: 60px;
+                                                    margin-bottom: 12%;
+                                                    opacity: 0.8;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div19 {
+                                                        margin-top: 60px;
+                                                        height: 1040px;
+                                                    }
+                                                    .div19_2 {
+                                                        display: block;
+                                                        margin-top: 12%;
+                                                    }
+                                                    .div19_2_1 {
+                                                        width: 100%;
+                                                    }
+                                                    .div19_2_1 i {
+                                                        font-size: 30px;
+                                                        margin-bottom: 3%;
+                                                    }
+                                                }
+                                                
+                                                .div20 {
+                                                    width: 100%;
+                                                    height: 550px;
+                                                    background-color: #fff;
+                                                }
+                                                
+                                                .div20h1 {
+                                                    margin: 4% 23% 1% 21%;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .slideShowslideShow {
+                                                    margin: 2% 16% 5% 16%;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div20 {
+                                                        height: 300px;
+                                                        background-color: #fff;
+                                                    }
+                                                    .div20h1 {
+                                                        margin: 2% 1% 1% 1%;
+                                                        text-align: center;
+                                                    }
+                                                    .div20h1 h1 {
+                                                        font-size: 20px;
+                                                    }
+                                                    .slideShowslideShow {
+                                                        margin: 0px;
+                                                    }
+                                                    #load {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                                
+                                                .div21 {
+                                                    width: 100%;
+                                                    height: 300px;
+                                                    background-color: #ff4b4b;
+                                                    color: rgb(241, 236, 236);
+                                                    position: relative;
+                                                }
+                                                
+                                                .div21h1_1 {
+                                                    text-align: center;
+                                                }
+                                                
+                                                .lienhe {
+                                                    margin: 2% 20% 2% 20%;
+                                                    width: 30%;
+                                                    height: 60%;
+                                                }
+                                                
+                                                .iconemozi {
+                                                    position: absolute;
+                                                    top: 250px;
+                                                    display: flex;
+                                                    left: 1100px;
+                                                }
+                                                
+                                                .iconemozi i {
+                                                    font-size: 40px;
+                                                    color: #e7dfdc;
+                                                }
+                                                
+                                                .iconemozi a {
+                                                    margin: 3% 10% 6% 10%;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .div21 {
+                                                        height: 330px;
+                                                        width: 100%;
+                                                    }
+                                                    .lienhe {
+                                                        margin: 2% 3% 2% 6%;
+                                                        width: 85%;
+                                                    }
+                                                    .iconemozi {
+                                                        display: flex;
+                                                        left: 290px;
+                                                        top: 290px;
+                                                        font-size: 10px;
+                                                    }
+                                                    .ggmap img {
+                                                        width: 400px;
+                                                        height: 300px;
+                                                    }
+                                                }
+                                                
+                                                .ggmap img {
+                                                    width: 100%;
+                                                    height: 500px;
+                                                    margin-bottom: 6%;
+                                                }
+                                                
+                                                .form-container {
+                                                    position: fixed;
+                                                    top: 0;
+                                                    left: 0;
+                                                    right: 0;
+                                                    bottom: 0;
+                                                    /* giúp cho nó nằm ra giữa */
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    background-color: rgba(0, 0, 0, .3);
+                                                    display: none;
+                                                }
+                                                
+                                                .form2 {
+                                                    width: 35%;
+                                                    height: 90%;
+                                                    margin-bottom: 0px;
+                                                    background-color: #f7f0f3;
+                                                    border-radius: 20px;
+                                                    position: relative;
+                                                }
+                                                
+                                                .c2 {
+                                                    margin-top: 3%;
+                                                    padding: 3px 0px 3px 5px;
+                                                    width: 90%;
+                                                    height: 6%;
+                                                    border-radius: 15px;
+                                                    border: 0.5px solid;
+                                                }
+                                                
+                                                #btnsmit {
+                                                    width: 65%;
+                                                    line-height: 1%;
+                                                    /* Vì anh dùng height đơn vị là % */
+                                                    background-color: coral;
+                                                    border-radius: 10px;
+                                                    border: none;
+                                                    /*boerder bỏ cái đường viênf của buuton **/
+                                                    margin-top: 3%;
+                                                }
+                                                
+                                                #closed {
+                                                    position: absolute;
+                                                    top: 0px;
+                                                    right: 0;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .form2 {
+                                                        width: 70%;
+                                                        height: 85%;
+                                                        background-color: #857279;
+                                                        border-radius: 20px;
+                                                    }
+                                                    .c2 {
+                                                        margin-top: 2%;
+                                                        width: 90%;
+                                                        height: 7%;
+                                                        border-radius: 15px;
+                                                        border: 0.5px solid;
+                                                    }
+                                                    #btnsmit {
+                                                        width: 65%;
+                                                        border-radius: 10px;
+                                                        margin-top: 3%;
+                                                        height: 6%;
+                                                        /*display: flex;
+                                        justify-content: center;
+                                        align-item: center: cos theer dung cai nayf dde can
+                                        Text-align chỉ xét center cho text thôi
+                                                        */
+                                                    }
+                                                    #closed {
+                                                        padding: 0;
+                                                        width: 25px;
+                                                    }
+                                                }
+                                                
+                                                #btn:hover {
+                                                    background-color: firebrick;
+                                                }
+                                                
+                                                .btnchon1 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                    color: chocolate;
+                                                    background-color: rgb(97, 70, 70);
+                                                }
+                                                
+                                                .btnchon2 {
+                                                    width: 35%;
+                                                    margin: 10% 2% 5% 2%;
+                                                    height: 35px;
+                                                    border-radius: 10px;
+                                                    border: 0px;
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                .divCuoi {
+                                                    display: none;
+                                                    background-color: #f76942;
+                                                }
+                                                
+                                                .sohoa {
+                                                    width: 18%;
+                                                }
+                                                
+                                                #thoigian {
+                                                    font-size: 30px;
+                                                    color: #e7dfdc;
+                                                }
+                                                
+                                                #bntcuoi {
+                                                    width: 20%;
+                                                    height: 50%;
+                                                    border-radius: 10px;
+                                                    border: none;
+                                                    background-color: #e7dfdc;
+                                                    color: darkslategray;
+                                                    font-size: 13px;
+                                                }
+                                                
+                                                #bntcuoi:hover {
+                                                    background-color: #EF5122;
+                                                }
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .imgf {
+                                                        display: none;
+                                                    }
+                                                    .sohoa {
+                                                        width: 45%;
+                                                        font-size: 12px;
+                                                    }
+                                                    #thoigian {
+                                                        display: none;
+                                                    }
+                                                    #bntcuoi {
+                                                        width: 35%;
+                                                        height: 40%;
+                                                        border-radius: 10px;
+                                                    }
+                                                }

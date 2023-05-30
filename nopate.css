@@ -1,0 +1,15 @@
+  background-size: cover;
+  /*; Tự chia tỷ lệ tới kích thước lớn nhất của chiều rộng hoặc chiều cao để phù hợp với vùng nội dung. Nếu chiều cao lớn hơn chiều rộng thì background
+                                         sẽ chỉnh 100% theo chiều cao, chiều rộng sẽ tự động chỉnh tỷ lệ cho phù hợp (auto).*/
+  
+  Background-position
+  /*là thuộc tính xác định vị trí của ảnh nền trên phần tử,
+  giá trị mặc định của nó ở góc trên và từ mép trái của phần tử. Nói một cách khác nó hỗ trợ thuộc tính background-image xác định vị trí ảnh nền. */
+  
+  position: absolute
+  /* trong CSS có tác dụng giúp định vị trí tuyệt đối cho thành phần theo thành phần bao ngoài,
+  hoặc ít nhất là theo cửa sổ trình duyệt. */
+  
+  text-align: center;
+  Sắp nội dung theo chiều ngang nằm giữa. text-align: justify;
+  Sắp xếp nội dung cho các dòng có chiều rộng bằng nhau.
